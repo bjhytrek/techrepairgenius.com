@@ -6,8 +6,8 @@
         <div class="row">
             <div class="col-md-6">
                 <h3>Contact</h3>
-                <h4>techrepairgenius@strongbademail.com</h4>
-                <p class="navbar-text">Site built by Premier Murphy Beds LLC. All rights reserved.</p>
+                <h4><a onclick="javascript:window.open('mailto:techrepairgenius@gmail.com?','mail');event.preventDefault()" href="mailto:techrepairgenius@gmail.com?">techrepairgenius@gmail.com</a></h4>
+                <p class="navbar-text">Site built by Brendan Hytrek. All rights reserved.</p>
             </div>
             <div class="col-md-6">
                 <div class="well">
