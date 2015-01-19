@@ -73,8 +73,11 @@ h3 {
     color: whitesmoke;
     //text-shadow: 0 2px 1px rgba(0,0,0,.6);
 }
+#button_output_heading {
+    color: #CD4800;
+}
 h4 {
-    color: #c0c0c0;
+    color: #FFB440;
 }
 
 .bs-callout {
