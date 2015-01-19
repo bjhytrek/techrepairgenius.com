@@ -5,8 +5,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h3>Contact</h3>
+                <h3>Contact:</h3>
                 <h4><a onclick="javascript:window.open('mailto:techrepairgenius@gmail.com?','mail');event.preventDefault()" href="mailto:techrepairgenius@gmail.com?">techrepairgenius@gmail.com</a></h4>
+                <h3>Phone: 2088613166</h3>
+                <h3>Available Hours:</h3>
+                <h4>Calendar coming soon!</h4>
                 <p class="navbar-text">Site built by Brendan Hytrek. All rights reserved.</p>
             </div>
             <div class="col-md-6">

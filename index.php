@@ -13,21 +13,21 @@
 
     <body>
         <div id="main_container" class="container">
-            
-            <div id="title_well"class="well"> 
-                       
-                        <a href="index.php">
-                            <img id="logo" src="media/logo.png" alt="TechRepairGenius.com">
-                    </a>
-                        
-                    <h1>Tech Repair Genius</h1>
-                    <p>-Free Estimates, Fast Service.</p>
-                </div>
-                
-                 
-                   
-            
-        
+
+            <div id="title_well" class="well"> 
+
+                <a href="index.php">
+                    <img id="logo" src="media/logo.png" alt="TechRepairGenius.com">
+                </a>
+
+                <h1>Tech Repair Genius</h1>
+                <p>-Free Estimates, Fast Service.</p>
+            </div>
+
+
+
+
+
             <!--Header with Navbar  -->	
 
 
@@ -93,39 +93,67 @@
 
 
             <!-- Main content-->
-
+            <script type="text/javascript">
+            function write_content(button_clicked) {
+                var output;
+                switch(button_clicked) {
+                    case 'screen':
+                        var output = "Broken Screen? Most laptop screens are easily replaceable, whether crecked or other wise damaged. Cost depends on the model and any other related damage.(broken plastic or hinges, etc. Call or email me for a qoute!";
+                        break;
+                    case 'socket_repair':
+                        var output = "Laptop won't charge? Charger falls out? Charging port broken? Don't worry, I have experience repairing DC Sockets on every type of laptop. Call or email me for a qoute!";
+                        break;
+                    case 'overheating':
+                        var output = "Is your laptop too hot? Does your laptop crash often? This can be a simple, and quick issue to fix! Call or email me for a qoute! ";
+                        break;
+                    case 'no_display':
+                        var output = "Does your computer, or laptop have a blank screen? Does it seem like your laptop screen or monitor isn't getting power? I have expierience troubleshooting most hardware, and software problems. Call or email me for a qoute!";
+                        break;
+                    default:
+                        var output = "Choose a service from the left!";
+                        break;
+                }
+                
+                $("#button_output").text(output);
+            }
+            </script>
             <!-- Responsive Grid System.-->
             <div class="row">
-                <div class="col-xs-6 col-md-6">
-                <ul class="list-group">
-                    <li>Screen Replacement</li>
-                    <li>DC Socket Repair</li>
-                    <li>Overheating</li>
-                    <li>No Display</li>
-                    <li></li>
-                </ul>
-                    </div>
-                <div class="col-xs-6 col-md-6">
-                    
+                <div class="col-xs-4 col-md-4 col-lg-3">
+
+                    <div class="btn-group-vertical" role="group" aria-label="Choose a service!">
+                        <button type="button" class="btn btn-default btn-lg" onclick="write_content('screen')"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Screen Replacement</button>
+                        
+                        <button type="button" onclick="write_content('socket_repair')" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> DC Socket Repair</button>
+                        
+                        <button type="button" onclick="write_content('overheating')" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Overheating</button>
+                        
+                        <button type="button" onclick="write_content('no_display')" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span> No Display</button>
+                 </div>
                 </div>
+                <div class="col-xs-8 col-md-8 col-lg-8">
+                    <div id="button_output" class="well">Please select a service!</div>
+                </div>
+              
             </div>
+            
             <div class="row">
-                
+
 
                 <div class="col-xs-4 col-md-4">
                     <h3><a href="#">Software</a></h3>
-                    <p>RANDOM CRAP RAY SAYS</p>
-                    <a href="#" class="btn btn-warning">Buy Now!</a>
+                    <p></p>
+                    
                 </div>
                 <div class="col-xs-4 col-md-4">
                     <h3><a href="#">Hardware</a></h3>
                     <p>RANDOM CRAP RAY SAYS</p>
-                    <a href="#" class="btn btn-warning">Buy Now!</a>
+                   
                 </div>
                 <div class="col-xs-4 col-md-4">
                     <h3><a href="#">A random service.</a></h3>
                     <p>RANDOM CRAP RAY SAYS</p>
-                    <a href="#" class="btn btn-warning">Buy Now!</a>
+                    
                 </div>
             </div>
 
