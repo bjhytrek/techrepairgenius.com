@@ -1,14 +1,14 @@
 
 <!--Footer  -->
 <div class="push"></div>
-<div id="footer" class = "navbar navbar-inverse navbar-static-bottom">
+<div  class = "navbar navbar-inverse navbar-static-bottom">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h3>Contact:</h3>
+            <div id="footer" class="col-md-6">
+                <h3 class="footer_h3">Contact Ray:</h3>
                 <h4><a onclick="javascript:window.open('mailto:techrepairgenius@gmail.com?','mail');event.preventDefault()" href="mailto:techrepairgenius@gmail.com?">techrepairgenius@gmail.com</a></h4>
-                <h3>Phone: 208-861-3166</h3>
-                <h3>Available Hours:</h3>
+                <h3 class="footer_h3">Phone: 208-861-3166</h3>
+                <h3 class="footer_h3">Available Hours:</h3>
                 <h4>Calendar coming soon!</h4>
                 <p class="navbar-text">Site built by Brendan Hytrek. All rights reserved.</p>
             </div>

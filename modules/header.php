@@ -1,3 +1,4 @@
+<?php SESSION_start(); ?>
 <head>
         <title>Tech Repair Genius</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,10 +44,24 @@
                         <!--for mobile navbar display-->
                         <ul class = "nav navbar-nav navbar-left">
 
-                            <li class = "active"><a href="#">Home</a></li>
-                            <li><a href="#">Repairs</a></li>
-                            <li><a href="#">Custom Builds</a></li>
-                            <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                            <?php
+                     
+                     $pages = array(
+                        '<a href="index.php">Home</a>',
+                        '<a href="repairs.php">Repairs</a>',
+                        '<a href="custom_builds.php">Custom Builds</a>',
+                        '<a href="contact.php">Contact</a>'  
+                     );
+     
+                        foreach($pages as $page=>$content){
+                    $li_str = '<li>';
+                    if($page == $active_page){
+                        $li_str = '<li class="active">';
+                    }
+                    $li_str .= $content.'</li>';
+                    echo $li_str;
+                }
+                ?>
                         </ul>
                     </div>
                 </div>
