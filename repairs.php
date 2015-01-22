@@ -17,7 +17,7 @@
              </div>
         <div class="col-xs-6 col-lg-8 col-md-6">
             <h3>Broken Screen?</h3>
-            <p>Most laptop screens are easily replaceable, whether crecked or other wise damaged. Cost depends on the model and any other related damage.(broken plastic or hinges, etc.</p>
+            <p>Most laptop screens are easily replaceable, whether crecked or other wise damaged. Cost depends on the model and any other related damage.(broken plastic or hinges, etc.)</p>
             </div>
     </div>
     <div class="row">
@@ -41,11 +41,23 @@
 </div>    
     <div class="row">
        <div class="col-xs-6 col-lg-2 col-md-2 col-sm-4">
-           <img class="img-responsive" src="media/repair_page/slow-computer.jpg" alt="I fix slow Computers by removing harmful Viruses, and Malware!">
+           <img class="img-responsive" src="media/repair_page/slow-computer.jpg" alt="I fix computers with no display!">
              </div>
         <div class="col-xs-6 col-lg-8 col-md-6">
             <h3>No Display?</h3>
             <p>Does your computer, or laptop have a blank screen? Does it seem like your laptop screen or monitor isn't getting power? I have experience troubleshooting most hardware, and software problems.</p>
+            </div>
+        
+    </div>
+    <div class="row">
+       <div class="col-xs-6 col-lg-2 col-md-2 col-sm-4">
+           <img class="img-responsive" src="media/repair_page/mac_malware.gif" alt="I fix slow Computers by removing harmful Viruses, and Malware!">
+             </div>
+        <div class="col-xs-6 col-lg-8 col-md-6">
+            <h3>Slowness, crashes, viruses, or pop-ups?</h3>
+            <p>Most problems with system stability or speed are
+caused by viruses, adware, and malware infections. Usually these issues are solved
+through proper clean-up and subsequent prevention</p>
             </div>
         
     </div>

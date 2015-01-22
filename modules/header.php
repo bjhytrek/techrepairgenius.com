@@ -1,8 +1,8 @@
 <?php SESSION_start(); ?>
 <head>
-        <title>Tech Repair Genius</title>
+        <title>Tech Repair Genius - PC and Mac Repair specialist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Tech Repair Genius, Rexburg. Idaho">
+        <meta name="description" content="Tech Repair Genius, Rexburg. Idaho. I offer Custom Computers, Tech support, Virus Removal, and Hardware Repair.">
         <meta name="author" content="Techrepairgenius.com">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
