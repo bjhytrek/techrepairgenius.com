@@ -8,7 +8,7 @@
 <div class="page-header">
   <h1>Repairs <small>Welcome to Hardware and Software Repairs</small></h1>
 </div>
-    <div class="alert alert-success"><h4>For questions, or a quote you can always email,text, or call me. Contact information can be found at the bottom of every page!</h4></div>
+    
     
     
     <div class="row">
@@ -49,6 +49,7 @@
             </div>
         
     </div>
+    <div class="alert alert-success"><h4>For questions, or a quote you can always email,text, or call me. Contact information can be found at the bottom of every page!</h4></div>
 </div>
     
 <!--Footer  -->
