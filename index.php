@@ -49,7 +49,7 @@
             switch (button_clicked) {
                 case 'screen':
                     var output_heading = "Screen Replacement";
-                    var output_content = "Broken Screen? Most laptop screens are easily replaceable, whether crecked or other wise damaged. Cost depends on the model and any other related damage.(broken plastic or hinges, etc. Call or email me for a quote!";
+                    var output_content = "Broken Screen? Most laptop screens are easily replaceable, whether cracked or otherwise damaged. Cost depends on the model and any other related damage (Broken plastic or hinges, etc). Call or email me for a quote!";
                     break;
                 case 'socket_repair':
                     var output_heading = "DC Socket Repair";
@@ -86,7 +86,7 @@
                 <button type="button" onclick="write_content('no_display')" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span> No Display</button>
             </div>
         </div>
-        <div class="col-xs-9 col-sm-8 col-md-8 col-lg-8">
+        <div class="col-xs-9 col-sm-8 col-md-8 col-lg-9">
             <div  class="well"><h3 id="button_output_heading">Please select a service!</h3><p  id="button_output_content"></p></div>
         </div>
 
