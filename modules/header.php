@@ -15,11 +15,11 @@
 
             <div id="title_well" class="well"> 
 
-                <a href="index.php">
+                <a href="index.php?action=home">
                     <img id="logo" src="media/logo.png" alt="TechRepairGenius.com">
                 </a>
 
-                <h1>Tech Repair Genius</h1>
+                <h1 id="heading">Tech Repair Genius</h1>
                 <p>-Free Estimates, Fast Service.</p>
             </div>
 
@@ -33,7 +33,7 @@
             <div class="navbar navbar-inverse navbar-static-top" role="navigation" id="navbar">
                 <div class="container">
                     <div class="navbar-header">
-                        <a href="index.php" class="navbar-brand" id="nav_title"></a><a href="index.php" class="navbar-brand" id="nav_title">Tech Repair Genius</a>
+                        <a href="index.php" class="navbar-brand" id="nav_title"><img alt="Brand" src="media/logo.png"></a>
                         <button type="button" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target= ".navbar-collapse">
                             <span class = "icon-bar"></span>
                             <span class = "icon-bar"></span>
@@ -47,10 +47,11 @@
                             <?php
                      
                      $pages = array(
-                        '<a href="index.php">Home</a>',
-                        '<a href="repairs.php">Repairs</a>',
-                        '<a href="custom_builds.php">Custom Builds</a>',
-                        '<a href="contact.php">Contact</a>'  
+                        '<a href="index.php?action=home">Home</a>',
+                        '<a href="index.php?action=repairs">Repairs</a>',
+                        '<a href="index.php?action=custom_builds">Custom Builds</a>',
+                        '<a href="index.php?action=for_sale">For Sale</a>',
+                        '<a href="index.php?action=contact">Contact</a>'  
                      );
      
                         foreach($pages as $page=>$content){
